@@ -1,0 +1,178 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.quote-text {
+  padding: 0px 105px;
+}
+.banner-title{width:100%}
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.banner-title h1 {
+  font-size: 46px;
+}
+.banner-title {
+  padding: 45px;
+  width: 100%;
+}
+.banner-title h3 {
+  font-size: 14px;;
+}
+.header-area .navbar-brand {
+  margin-top: -22px;
+}
+.about-content-left {
+  margin-bottom: 50px;
+  padding: 40px 50px 14px;
+}
+.col-md-4.col-sm-6:nth-child(-n+6) .single-service {
+  margin-bottom: 30px;
+}
+.our-service {
+  padding-bottom: 70px;
+}
+.team {
+  height: 100%;
+  width: 100%;
+}
+.team .mask {
+  height: 100%;
+  width: 100%;
+}
+.team h2 {
+  padding-top: 160px;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+
+.header-area .navbar-toggle {
+  background-color: #000;
+  margin-right: 0;
+  border-radius:0px;
+}
+.header-area .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.main-menu {
+  float: none;
+  text-align: center;
+}
+.main-menu li {
+  background: #000 none repeat scroll 0 0;
+  display: block;
+  padding: 8px 0;
+}
+.main-menu li a {
+  display: block;
+}
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+.stick .main-menu nav ul li a::before {
+  background: transparent none repeat scroll 0 0;
+}
+.stick .main-menu li a {
+  color: #fff;
+}
+.main-menu nav ul li.active a::before, .main-menu nav ul li a:hover::before {
+  transform: scale(0);
+}
+.banner-title {
+  padding: 50px 25px;
+  width: 100%;
+}
+.banner-title h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.banner-title h3 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+.navbar-toggle {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.team-area {
+  padding-bottom: 70px;
+}
+.team {
+  margin: 0 auto 30px;
+}
+.quote-text {
+  padding: 0 45px;
+}
+.quote-text h2 {
+  font-size: 24px;
+  line-height: 35px;
+}
+.blog-box {
+  padding-bottom: 40px;
+}
+.blog-area {
+  padding-bottom: 60px;
+}
+.about-content-left {
+  margin-bottom: 50px;
+  padding: 40px 35px 14px;
+}
+.portfolio-menu {
+  margin-bottom: 35px;
+}
+.portfolio-menu button {
+  margin: 0 15px 20px;
+}
+.col-md-4.col-sm-6:nth-child(-n+6) .single-service {
+  margin-bottom: 30px;
+}
+.our-service {
+  padding-bottom: 70px;
+}
+.black-edition .our-service {
+  padding-bottom: 0px;
+}
+.black-edition .team-area {
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.single-service {
+  padding: 30px;
+}
+.cd-headline.clip .cd-words-wrapper::after {
+  height: 90%;
+  top: 3px;
+}
+.header-area.stick {
+  padding: 15px 0;
+}
+.header-area.stick .navbar-brand {
+  margin-top: -8px;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.single-service {
+  padding: 50px;
+}
+.team {
+  height: 100%;
+  width: 100%;
+}
+.team .mask {
+  height: 100%;
+  width: 100%;
+}
+
+}
+ 
